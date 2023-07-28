@@ -6,5 +6,10 @@ def data_render(request):
     return render(request,'data_render.html',context=d)
 
 
+def conditions(request):
+    d={'a':12,'b':25,'c':90}
+    return render(request,'conditions.html',context=d)
+
+
 
 
