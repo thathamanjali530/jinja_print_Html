@@ -12,6 +12,12 @@
 {% if age > 10 %}
         <h1>Student age is {{age}}</h1>
 {% endif %}
+
+{% for i in hobbies %}
+     <h1>{{i}}</h1>
+{% endfor %}
+
+<h1><a href="{% url 'conditions'%}">Data go to conditions</a></h1>
     </center>
 </body>
 </html>

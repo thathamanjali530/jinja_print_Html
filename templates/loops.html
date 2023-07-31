@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<body>
+    <center>
+        <h1>LOOP CONDITIONS</h1>
+        {% for x in name %}
+             <h1>{{x}}</h1>
+        {% endfor %}
+
+    <h1><a href="{% url 'conditions' %}">Data go to conditions</a></h1>
+    <h1><a href="{% url 'data_render'%}">Data go to data_render</a></h1>
+    </center>
+</body>
+</html>

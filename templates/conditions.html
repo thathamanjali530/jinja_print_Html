@@ -7,7 +7,7 @@
 </head>
 <body>
     <center>
-<!--
+
         <h1>If Condition</h1>
         {% if a > b %}
             <h1>a is max {{a}}</h1>
@@ -24,7 +24,7 @@
 {% else %}
     <h1>c is max {{c}}</h1>
 {% endif %}
--->
+
 <h1>NESTED IF-ELSE</h1>
 {% if a > b %}
     {% if a > c %} 
@@ -39,6 +39,9 @@
         <h1>c is max {{c}}</h1>
     {% endif %}
 {% endif %}
+
+
+ <h1><a href="{% url 'data_render' %}"> Data go to data_render</a></h1>
     
 </center>
      
